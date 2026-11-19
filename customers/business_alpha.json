@@ -1,0 +1,111 @@
+{
+  "customer_id": "business_alpha",
+  "name": "Alpha Tech Solutions LLC",
+  "account_type": "business",
+  "business_type": "LLC",
+  "registration_number": "LLC-2019-087654",
+  "registration_state": "Delaware",
+  "registration_date": "2019-03-15",
+  "industry": "Software Development",
+  "naics_code": "541511",
+  "address": "500 Tech Park Drive, Austin, TX 78701",
+  "ein": "12-3456789",
+  "annual_revenue": 2500000,
+  "employees": 25,
+  "account_opened": "2020-01-15",
+  "account_status": "active",
+  "pep_status": false,
+  "beneficial_owners": [
+    {
+      "name": "Sarah Johnson",
+      "ownership_pct": 60,
+      "nationality": "US",
+      "pep": false,
+      "sanctions_clear": true
+    },
+    {
+      "name": "Michael Chen",
+      "ownership_pct": 40,
+      "nationality": "US",
+      "pep": false,
+      "sanctions_clear": true
+    }
+  ],
+  "data_consents": {
+    "marketing": true,
+    "analytics": true,
+    "third_party_sharing": true,
+    "consent_date": "2020-01-15"
+  },
+  "data_access_log": [
+    {
+      "accessed_by": "credit_team_001",
+      "purpose": "credit_check",
+      "date": "2024-01-10",
+      "consented": true
+    },
+    {
+      "accessed_by": "fraud_detection_engine",
+      "purpose": "fraud_detection",
+      "date": "2024-01-20",
+      "consented": true
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TXN101",
+      "date": "2024-01-05",
+      "type": "deposit",
+      "amount": 125000,
+      "currency": "USD",
+      "counterparty": "Microsoft Corp",
+      "country": "US",
+      "channel": "wire",
+      "note": "Client payment - invoice #2024-001"
+    },
+    {
+      "id": "TXN102",
+      "date": "2024-01-10",
+      "type": "payment",
+      "amount": 45000,
+      "currency": "USD",
+      "counterparty": "Amazon Web Services",
+      "country": "US",
+      "channel": "ach",
+      "note": "Cloud infrastructure payment"
+    },
+    {
+      "id": "TXN103",
+      "date": "2024-01-15",
+      "type": "payment",
+      "amount": 95000,
+      "currency": "USD",
+      "counterparty": "ADP Payroll",
+      "country": "US",
+      "channel": "ach",
+      "note": "Bi-monthly payroll disbursement"
+    },
+    {
+      "id": "TXN104",
+      "date": "2024-01-20",
+      "type": "deposit",
+      "amount": 87500,
+      "currency": "USD",
+      "counterparty": "Google LLC",
+      "country": "US",
+      "channel": "wire",
+      "note": "Client payment - invoice #2024-002"
+    },
+    {
+      "id": "TXN105",
+      "date": "2024-01-25",
+      "type": "payment",
+      "amount": 12000,
+      "currency": "USD",
+      "counterparty": "Office Space Corp",
+      "country": "US",
+      "channel": "ach",
+      "note": "Monthly office rent"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "customer_id": "john_smith",
+  "name": "John Smith",
+  "account_type": "personal",
+  "date_of_birth": "1975-03-15",
+  "nationality": "US",
+  "address": "123 Main St, New York, NY 10001",
+  "id_type": "passport",
+  "id_number": "US123456789",
+  "id_expiry": "2029-06-30",
+  "id_verified": true,
+  "account_opened": "2024-01-01",
+  "account_status": "active",
+  "occupation": "Freelance Consultant",
+  "employer": "Self-employed",
+  "annual_income": 85000,
+  "previous_sars": 0,
+  "pep_status": false,
+  "data_consents": {
+    "marketing": true,
+    "analytics": true,
+    "third_party_sharing": false,
+    "consent_date": "2024-01-01"
+  },
+  "data_access_log": [
+    {
+      "accessed_by": "loan_officer_002",
+      "purpose": "credit_check",
+      "date": "2024-01-15",
+      "consented": true
+    },
+    {
+      "accessed_by": "marketing_system",
+      "purpose": "targeted_ads",
+      "date": "2024-02-10",
+      "consented": false
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TXN001",
+      "date": "2024-01-07",
+      "type": "deposit",
+      "amount": 50000,
+      "currency": "USD",
+      "counterparty": "Cash",
+      "country": "US",
+      "channel": "branch",
+      "note": "Large cash deposit"
+    },
+    {
+      "id": "TXN002",
+      "date": "2024-01-07",
+      "type": "withdrawal",
+      "amount": 50000,
+      "currency": "USD",
+      "counterparty": "Cash",
+      "country": "US",
+      "channel": "branch",
+      "note": "Cash withdrawal same day as deposit"
+    },
+    {
+      "id": "TXN003",
+      "date": "2024-01-10",
+      "type": "deposit",
+      "amount": 9500,
+      "currency": "USD",
+      "counterparty": "Cash",
+      "country": "US",
+      "channel": "branch",
+      "note": "Cash deposit below CTR threshold"
+    },
+    {
+      "id": "TXN004",
+      "date": "2024-01-11",
+      "type": "deposit",
+      "amount": 9500,
+      "currency": "USD",
+      "counterparty": "Cash",
+      "country": "US",
+      "channel": "branch",
+      "note": "Cash deposit below CTR threshold"
+    },
+    {
+      "id": "TXN005",
+      "date": "2024-01-12",
+      "type": "deposit",
+      "amount": 9000,
+      "currency": "USD",
+      "counterparty": "Cash",
+      "country": "US",
+      "channel": "branch",
+      "note": "Cash deposit below CTR threshold"
+    },
+    {
+      "id": "TXN006",
+      "date": "2024-01-14",
+      "type": "deposit",
+      "amount": 60000,
+      "currency": "USD",
+      "counterparty": "Wire Transfer",
+      "country": "US",
+      "channel": "wire",
+      "note": "Incoming wire transfer"
+    },
+    {
+      "id": "TXN007",
+      "date": "2024-01-14",
+      "type": "wire_out",
+      "amount": 30000,
+      "currency": "USD",
+      "counterparty": "Ahmed Al-Rashid",
+      "country": "UAE",
+      "channel": "wire",
+      "note": "International wire to UAE"
+    },
+    {
+      "id": "TXN008",
+      "date": "2024-01-15",
+      "type": "wire_out",
+      "amount": 25000,
+      "currency": "USD",
+      "counterparty": "Mohammed Khan",
+      "country": "Pakistan",
+      "channel": "wire",
+      "note": "International wire to Pakistan"
+    }
+  ]
+}

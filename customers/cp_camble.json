@@ -1,0 +1,135 @@
+{
+  "customer_id": "cp_camble",
+  "name": "CP Camble",
+  "account_type": "personal",
+  "date_of_birth": "1982-07-20",
+  "nationality": "US",
+  "address": "88 Highroller Avenue, Las Vegas, NV 89101",
+  "id_type": "passport",
+  "id_number": "US987654321",
+  "id_expiry": "2028-09-15",
+  "id_verified": true,
+  "account_opened": "2023-03-01",
+  "account_status": "active",
+  "occupation": "Gambling Industry Consultant",
+  "employer": "Self-employed",
+  "annual_income": 150000,
+  "previous_sars": 0,
+  "pep_status": false,
+  "data_consents": {
+    "marketing": false,
+    "analytics": true,
+    "third_party_sharing": false,
+    "consent_date": "2023-03-01"
+  },
+  "data_access_log": [
+    {
+      "accessed_by": "credit_team_003",
+      "purpose": "credit_check",
+      "date": "2024-01-05",
+      "consented": true
+    },
+    {
+      "accessed_by": "marketing_system",
+      "purpose": "marketing",
+      "date": "2024-02-01",
+      "consented": false
+    },
+    {
+      "accessed_by": "analytics_engine",
+      "purpose": "analytics",
+      "date": "2024-02-15",
+      "consented": true
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TXN301",
+      "date": "2024-01-03",
+      "type": "deposit",
+      "amount": 9800,
+      "currency": "USD",
+      "counterparty": "Cash",
+      "country": "US",
+      "channel": "branch",
+      "note": "Cash deposit — consulting fee"
+    },
+    {
+      "id": "TXN302",
+      "date": "2024-01-05",
+      "type": "deposit",
+      "amount": 9700,
+      "currency": "USD",
+      "counterparty": "Cash",
+      "country": "US",
+      "channel": "branch",
+      "note": "Cash deposit — consulting fee"
+    },
+    {
+      "id": "TXN303",
+      "date": "2024-01-07",
+      "type": "deposit",
+      "amount": 9500,
+      "currency": "USD",
+      "counterparty": "Cash",
+      "country": "US",
+      "channel": "branch",
+      "note": "Cash deposit — consulting fee"
+    },
+    {
+      "id": "TXN304",
+      "date": "2024-01-10",
+      "type": "deposit",
+      "amount": 75000,
+      "currency": "USD",
+      "counterparty": "Macau Star Casino Group",
+      "country": "Macau",
+      "channel": "wire",
+      "note": "Consulting retainer from Macau client"
+    },
+    {
+      "id": "TXN305",
+      "date": "2024-01-10",
+      "type": "wire_out",
+      "amount": 50000,
+      "currency": "USD",
+      "counterparty": "Offshore Gaming Solutions Ltd",
+      "country": "Panama",
+      "channel": "wire",
+      "note": "Business expense — offshore vendor"
+    },
+    {
+      "id": "TXN306",
+      "date": "2024-01-15",
+      "type": "deposit",
+      "amount": 40000,
+      "currency": "USD",
+      "counterparty": "Golden Dragon VIP Club",
+      "country": "Macau",
+      "channel": "wire",
+      "note": "VIP consulting payment"
+    },
+    {
+      "id": "TXN307",
+      "date": "2024-01-18",
+      "type": "wire_out",
+      "amount": 35000,
+      "currency": "USD",
+      "counterparty": "Nexus Holdings",
+      "country": "Seychelles",
+      "channel": "wire",
+      "note": "Investment transfer"
+    },
+    {
+      "id": "TXN308",
+      "date": "2024-01-22",
+      "type": "deposit",
+      "amount": 9900,
+      "currency": "USD",
+      "counterparty": "Cash",
+      "country": "US",
+      "channel": "branch",
+      "note": "Cash deposit"
+    }
+  ]
+}

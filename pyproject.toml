@@ -1,0 +1,15 @@
+[project]
+name = "regulatory-compliance-monitoring-multiagent"
+version = "0.2.0"
+description = "Multi-agent regulatory compliance monitoring system using LangGraph (AML/KYC, KYB, Transaction Monitor, Privacy)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph>=0.2.0",
+    "langchain-openai>=0.2.0",
+    "langchain-core>=0.3.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+compliance-monitor = "main:run"

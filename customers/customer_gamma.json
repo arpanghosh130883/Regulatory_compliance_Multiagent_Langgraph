@@ -1,0 +1,144 @@
+{
+  "customer_id": "customer_gamma",
+  "name": "Gamma Global Trading Ltd",
+  "account_type": "business",
+  "business_type": "Corporation",
+  "registration_number": "BVI-2022-003421",
+  "registration_state": "British Virgin Islands",
+  "registration_date": "2022-11-01",
+  "industry": "Import/Export Trading",
+  "naics_code": "425120",
+  "address": "PO Box 1234, Road Town, British Virgin Islands",
+  "ein": "98-7654321",
+  "annual_revenue": 8000000,
+  "employees": 3,
+  "account_opened": "2023-06-01",
+  "account_status": "active",
+  "pep_status": false,
+  "beneficial_owners": [
+    {
+      "name": "Viktor Petrov",
+      "ownership_pct": 50,
+      "nationality": "Russia",
+      "pep": true,
+      "sanctions_clear": false
+    },
+    {
+      "name": "Shell Holdings Ltd",
+      "ownership_pct": 50,
+      "nationality": "Cayman Islands",
+      "pep": false,
+      "sanctions_clear": true
+    }
+  ],
+  "data_consents": {
+    "marketing": false,
+    "analytics": false,
+    "third_party_sharing": false,
+    "consent_date": "2023-06-01"
+  },
+  "data_access_log": [
+    {
+      "accessed_by": "analytics_engine",
+      "purpose": "analytics",
+      "date": "2024-01-20",
+      "consented": false
+    },
+    {
+      "accessed_by": "marketing_system",
+      "purpose": "marketing",
+      "date": "2024-01-22",
+      "consented": false
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TXN201",
+      "date": "2024-01-02",
+      "type": "deposit",
+      "amount": 500000,
+      "currency": "USD",
+      "counterparty": "Meridian Corp",
+      "country": "Russia",
+      "channel": "wire",
+      "note": "Trade finance inflow"
+    },
+    {
+      "id": "TXN202",
+      "date": "2024-01-02",
+      "type": "wire_out",
+      "amount": 100000,
+      "currency": "USD",
+      "counterparty": "Alpha Holdings",
+      "country": "Cayman Islands",
+      "channel": "wire",
+      "note": ""
+    },
+    {
+      "id": "TXN203",
+      "date": "2024-01-02",
+      "type": "wire_out",
+      "amount": 100000,
+      "currency": "USD",
+      "counterparty": "Beta Partners",
+      "country": "Seychelles",
+      "channel": "wire",
+      "note": ""
+    },
+    {
+      "id": "TXN204",
+      "date": "2024-01-02",
+      "type": "wire_out",
+      "amount": 100000,
+      "currency": "USD",
+      "counterparty": "Gamma Finance",
+      "country": "Panama",
+      "channel": "wire",
+      "note": ""
+    },
+    {
+      "id": "TXN205",
+      "date": "2024-01-02",
+      "type": "wire_out",
+      "amount": 100000,
+      "currency": "USD",
+      "counterparty": "Delta Investments",
+      "country": "British Virgin Islands",
+      "channel": "wire",
+      "note": ""
+    },
+    {
+      "id": "TXN206",
+      "date": "2024-01-02",
+      "type": "wire_out",
+      "amount": 100000,
+      "currency": "USD",
+      "counterparty": "Epsilon Corp",
+      "country": "UAE",
+      "channel": "wire",
+      "note": ""
+    },
+    {
+      "id": "TXN207",
+      "date": "2024-01-08",
+      "type": "deposit",
+      "amount": 750000,
+      "currency": "USD",
+      "counterparty": "Nexus Trading",
+      "country": "Iran",
+      "channel": "wire",
+      "note": "Commodity trade payment"
+    },
+    {
+      "id": "TXN208",
+      "date": "2024-01-08",
+      "type": "wire_out",
+      "amount": 750000,
+      "currency": "USD",
+      "counterparty": "Pyongyang Partners",
+      "country": "North Korea",
+      "channel": "wire",
+      "note": "Transfer to trading partner"
+    }
+  ]
+}
